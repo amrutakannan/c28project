@@ -55,7 +55,7 @@ class Stone {
 		this.body = Bodies.rectangle(x, y, w, h, options);
         this.width = w;
         this.height = h;
-        this.image = loadImage("../../img/plucking_mangoes/stone.png");
+        this.image = loadImage("../img/plucking_mangoes/stone.png");
         World.add(world, this.body);
       }
       display(){
